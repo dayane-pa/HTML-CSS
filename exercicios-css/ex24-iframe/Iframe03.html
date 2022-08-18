@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>uso de iframe</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            text-decoration: none;
+        }
+        iframe {
+            border: 1px solid black;
+            width: 96vw;
+            height: 40vh;
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>Faca uma escolha</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis distinctio consectetur perferendis cumque est, iusto odio, cum hic dignissimos eaque corporis quidem vitae rerum totam corrupti sapiente autem error! Mollitia!</p>
+
+    <ul>
+        <li><a href="pag01.html" target="frame">Primeira Pagina</a></li>
+        <li><a href="pag02.html" target="frame">Segunda Pagina</a></li>
+        <li><a href="pag03.html" target="frame">Terceira pagina</a></li>
+
+    </ul>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis distinctio consectetur perferendis cumque est, iusto odio, cum hic dignissimos eaque corporis quidem vitae rerum totam corrupti sapiente autem error! Mollitia!</p>
+    
+    <iframe name="frame" srcdoc="<h1> Escolha uma das opcoes</h1><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati sint, amet delectus facere rem nemo optio harum totam velit ullam ducimus, quia possimus. Repellat, corrupti debitis consectetur suscipit eveniet delectus?</p>"" >
+
+        <p>Seu navegador nao suporta</p>
+    </iframe>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis distinctio consectetur perferendis cumque est, iusto odio, cum hic dignissimos eaque corporis quidem vitae rerum totam corrupti sapiente autem error! Mollitia!</p>
+
+</body>
+</html>
